@@ -3,24 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zohair - Portfolio Data Analyst</title>
-    <!-- Lien vers la feuille de style CSS -->
+    <title>Zohair Nazhaoui - Data Analyst</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1>Bienvenue sur mon Portfolio Data</h1>
-    <p>Je suis en reconversion vers le métier de Data Analyst, en formation chez Simplon Lyon. Bienvenue sur ma toute première page web !</p>
+    <nav class="navbar">
+        <span class="logo">Zohair Nazhaoui</span>
+        <div class="nav-links">
+            <a href="#about">À propos</a>
+            <a href="#skills">Compétences</a>
+            <a href="#projects">Projets</a>
+            <a href="#parcours">Parcours</a>
+            <a href="#contact">Contact</a>
+            <a href="cv.pdf" download class="btn-cv">Télécharger mon CV</a>
+        </div>
+    </nav>
 
-    <h2>Mes compétences clés</h2>
-    <p>J'utilise actuellement les outils suivants pour mes analyses :</p>
-    <p>Python, Pandas, Seaborn, SQL et Power BI.</p>
+    <header class="hero" id="about">
+        <div class="hero-text">
+            <p class="hello">Bonjour, moi c'est</p>
+            <h1>Zohair Nazhaoui</h1>
+            <p class="tagline">Analyste curieux, passé du terrain à la data sans perdre le sens du concret.</p>
+            <p class="bio">15 ans à piloter des équipes et des indicateurs business dans le commerce et le tourisme. Aujourd'hui en formation Data Analyst chez Simplon Lyon, je mets cette expérience terrain au service de la donnée.</p>
+            <div class="links">
+                <a href="https://github.com/Zohair69" target="_blank" class="btn btn-primary">GitHub</a>
+                <a href="https://linkedin.com/in/zohair-nazhaoui" target="_blank" class="btn btn-outline">LinkedIn</a>
+                <a href="cv.pdf" download class="btn btn-outline">Télécharger mon CV</a>
+            </div>
+        </div>
+        <div class="hero-photo">
+            <img src="images/photo.jpg" alt="Zohair Nazhaoui">
+        </div>
+    </header>
 
-    <h2>Liens et ressources</h2>
-    <p>Découvrez mon travail et mon profil professionnel :</p>
-    <a href="https://github.com/Zohair69" target="_blank">Visiter mon profil GitHub</a>
+    <section class="skills" id="skills">
+        <h2>Compétences & centres d'intérêt</h2>
+        <div class="tags">
+            <span class="tag">SQL</span>
+            <span class="tag">Python & Pandas</span>
+            <span class="tag">Power BI</span>
+            <span class="tag">Data Visualisation</span>
+            <span class="tag">Git / GitHub</span>
+            <span class="tag">IA Générative</span>
+            <span class="tag">Analyse business</span>
+        </div>
+    </section>
 
-    <br/><br/>
-    <h2>Une image d'illustration</h2>
-    <img src="https://storage.googleapis.com/quest_editor_uploads/giUBuyFUSPVKY4n5Zr3UCjNTCKM2AOVT.jpg" alt="Illustration Web" width="400">
+    <section class="projects" id="projects">
+        <h2>Projets récents</h2>
+        <div class="project-grid">
+            <a href="https://github.com/Zohair69/ClassicModels" target="_blank" class="project-card">
+                <div class="project-img" style="background-image: url('images/projects/classicmodels.png')"></div>
+                <div class="project-body">
+                    <h3>ClassicModels</h3>
+                    <p>Modélisation en étoile (MySQL) et dashboard Power BI — logistique & stock.</p>
+                </div>
+            </a>
+            <a href="https://github.com/Zohair69/World-Happiness-Report" target="_blank" class="project-card">
+                <div class="project-img" style="background-image: url('images/projects/happiness.png')"></div>
+                <div class="project-body">
+                    <h3>World Happiness Report</h3>
+                    <p>Analyse 2021-2025 en équipe, présentation interactive et dashboard Power BI.</p>
+                </div>
+            </a>
+            <a href="https://github.com/Zohair69/Online-Retail" target="_blank" class="project-card">
+                <div class="project-img" style="background-image: url('images/projects/retail.png')"></div>
+                <div class="project-body">
+                    <h3>Online Retail</h3>
+                    <p>541 909 transactions analysées : CA, saisonnalité, recommandations business.</p>
+                </div>
+            </a>
+            <a href="https://github.com/Zohair69/Netflix-Dataset" target="_blank" class="project-card">
+                <div class="project-img" style="background-image: url('images/projects/netflix.png')"></div>
+                <div class="project-body">
+                    <h3>Netflix EDA</h3>
+                    <p>Exploration de données et dashboard Power BI en binôme.</p>
+                </div>
+            </a>
+        </div>
+        <a href="https://github.com/Zohair69" target="_blank" class="see-more">Voir tous mes projets sur GitHub →</a>
+    </section>
+
+    <section class="parcours" id="parcours">
+        <h2>Parcours</h2>
+
+        <h3 class="parcours-subtitle">Formation</h3>
+        <div class="timeline-item">
+            <span class="timeline-date">06/2026 - En cours</span>
+            <div>
+                <strong>Formation Data Analyst (10 mois) — Simplon Lyon</strong>
+                <p>Certification visée : Concepteur développeur en IA et analyse big data (RNCP38616, Niveau 6). SQL, Python (Pandas, Plotly), Power BI, Git/GitHub, Google Colab.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <span class="timeline-date">2011</span>
+            <div>
+                <strong>Master 2 Manager Stratégie Commerciale — IDRAC Lyon</strong>
+                <p>Spécialisation Management des Industries Touristiques.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <span class="timeline-date">2009</span>
+            <div>
+                <strong>Licence Sciences Économiques & Gestion — Université de Corse</strong>
+            </div>
+        </div>
+
+        <h3 class="parcours-subtitle">Expériences professionnelles</h3>
+        <div class="timeline-item">
+            <span class="timeline-date">12/2020 - 04/2024</span>
+            <div>
+                <strong>Co-Gérant — Arts et Habitat (Lyon)</strong>
+                <p>Pilotage de KPIs & reporting, gestion de projets et coordination d'équipes, analyse marketing.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <span class="timeline-date">01/2013 - 09/2020</span>
+            <div>
+                <strong>Assistant Commercial — Easypose (Lyon)</strong>
+                <p>Structuration des données de ventes et reportings d'activité pour la direction.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <span class="timeline-date">2003 - 2011</span>
+            <div>
+                <strong>Expertise sectorielle Tourisme & International</strong>
+                <p>My Apartment in Paris, Disneyland Resort Paris, Dubaï (Stade Al Wassl) — gestion de flux, relation client internationale multilingue.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Me contacter</h2>
+        <form action="mailto:zouhairr80@gmail.com" method="post" enctype="text/plain" class="contact-form">
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Basé à Lyon · Trilingue arabe / français / anglais</p>
+        <p><a href="mailto:zouhairr80@gmail.com">zouhairr80@gmail.com</a></p>
+    </footer>
 </body>
 </html>
